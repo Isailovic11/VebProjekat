@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: calibri;
+}
+
+h1{
+    text-align: center;
+    padding: 8px;
+}
+
+#film{
+    color: brown;
+}
+
+h2{
+    margin-left: .7em;
+    font-weight: normal;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav {
+    width: 100%;
+    overflow: hidden;
+    height: 70px;
+    line-height: 70px;
+    background: #fff;
+    border-bottom: 2px solid #ff0000;
+}
+
+.logo_div > img {
+    width: 15%;
+    float: left
+}
+
+.menu {
+    float: right;
+}
+
+.menu li{
+    float: left;
+    width: 120px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    list-style: none;
+    /*border-radius: 10px;*/
+}
+
+.menu li a{
+    color: #000;
+    text-decoration: none;
+    font-family: calibri;
+    text-transform: uppercase;
+    display: block;
+}
+
+.menu li:hover{
+    background: #dc3545;
+}
+
+.menu li a:hover{
+    color: #fff;
+}
+
+.profilpodaci {
+    margin-left: .7em;
+    font-family: calibri;
+    line-height: 30px;
+}
+
+.profilpodaci > a{
+    font-size: 1.2em;
+}
+
+.forma {
+  width: 40%;
+  clear: both;
+}
+
+.forma input, select {
+    width: 100%;
+    clear: both;
+    /*width: 20%;*/
+    padding: 13px;
+    margin: 3px 0 10px 0;
+    border: none;
+    background: #B8B8B8;
+    display: inline-block;
+}
+
+.forma input[type=submit] {
+    width: 40%;
+}
+
+input .btnclss{
+    background: gray;
+    width: 20%;
+}
+
+.forma.btn {
+    background: gray;
+    width: 100%;
+}
+
+/*#menadzer table.profil{
+    width 40%;
+    color: brown;
+    text-align: center;
+    border-collapse: collapse;
+}*/
+
+#ocenaForm {
+    width: 100%;
+}
+
+table {
+    width: 80%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #dc3545;
+}
+
+#usn_pass > p{
+    color: red;
+}
+
+#moviesTable th, #oneFilmTable th, #mngrTable th, #movies th, #searchResTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #dc3545;
+    color: black;
+}
+
+#moviesTable tr:nth-child(even), #mngrTable tr:nth-child(even), #movies tr:nth-child(even), #searchResTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#moviesTable tr:hover, #mngrTable tr:hover, #movies tr:hover #searchResTable:hover {
+    background-color: #ddd;
+}
+
+#oneFilmTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#oneFilmTable tr:hover {
+    background-color: #ddd;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #dc3545;
+    color: black;
+}
+
+#watchedMovies td {
+    padding: 6px !important;
+}
+
+button {
+    display: block;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: #D3D3D3;
+    width: 50%;
+    height: 50%;
+    border-radius: 30px;
+    font-weight: 600;
+    color: black;
+    background-size: 100% 100%;
+    box-shadow: 0 0 0 7px #D3D3D3 inset;
+}
+
+#novi_bioskop {
+    position: relative;
+    background-color: #dc3545;
+    color: black;
+    padding: 0.7em 1.2em;
+    text-decoration: none;
+}
+
+#novi_bioskop:active {
+    background-color: black;
+}
+
+#novi_bioskop:visited {
+    background-color: #ccc;
+}
+
+#nazad, #novaProjekcija, #novaSala {
+    width: 20%;
+    height: 50px;
+}
+
+.btnBack {
+    width: 10%;
+    height: 35px;
+}

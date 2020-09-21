@@ -1,0 +1,112 @@
+*{
+    font-family: "Ringside Regular A","Ringside Regular B",Rubik,Lato,"Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
+}
+
+body{
+    background: white;
+    margin: 0;
+}
+
+h1,h2,h3{
+    text-align: center;
+    color: rgb(46, 80, 144);
+}
+
+a{
+    text-decoration: none;
+    color: #334747;
+}
+
+/*header{
+    background: #161423;
+}*/
+
+header h1{
+    margin: 0.5em;
+}
+
+main{
+    background: #FFFFFF;
+}
+
+p{
+    padding: 0.1em .5em;
+}
+
+nav{
+    padding: 0;
+    margin: .5em;
+    list-style: none;
+    text-align: center;
+    list-style-type:none;
+    border-bottom: 2px solid red;
+
+}
+
+img {
+
+}
+
+.container>ul li{
+    list-style: none;
+    line-height: 2em;
+    padding: 0 .5em;
+    border-bottom: 2px solid rgb(146,183,254);
+    font-weight: bold;
+}
+
+.container>ul li img{
+    width: 50%;
+}
+
+nav>ul li:hover{
+    background: rgb(146,183,254);
+}
+
+.logo {
+    width: 60px;
+}
+
+.container{}
+
+
+@media only screen and (min-width: 740px){
+    main{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /*horizontalni meni*/
+    .container>ul{
+        float: right;
+        /*width: 100%;
+        display: inline-table;
+        height: 60px;
+        line-height: 60px;
+        background: #FFFFFF;*/
+    }
+
+    .container>ul li{
+        float: left;
+        width: 120px;
+        height: 70px;
+        line-height: 70px;
+        text-align: center;
+        /*display: table-cell;
+        border-bottom: 3px;
+        border-right: 1px solid rgb(146,183,254);*/
+    }
+
+    /*logo u cosku*/
+    .logo {
+        width: 60px;
+        float: left;
+    }
+
+    .container{
+        width: 90%;
+        margin: 0 auto;
+
+    }
+
+}
